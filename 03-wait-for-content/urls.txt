@@ -1,0 +1,3 @@
+# local fixtures (deterministic, no network needed)
+file:///home/hatch/workspace/founder-eval-artifacts/03-wait-for-content/fixtures/static.html
+file:///home/hatch/workspace/founder-eval-artifacts/03-wait-for-content/fixtures/js-heavy.html

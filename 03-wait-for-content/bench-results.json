@@ -1,0 +1,26 @@
+{
+  "urls": 2,
+  "scored": 2,
+  "partial_pages": 1,
+  "partial_page_rate": 0.5,
+  "results": [
+    {
+      "url": "file:///home/hatch/workspace/founder-eval-artifacts/03-wait-for-content/fixtures/static.html",
+      "early_chars": 281,
+      "late_chars": 281,
+      "growth_ratio": 1.0,
+      "vocab_overlap": 1.0,
+      "partial_page": false,
+      "verdict": "OK: early snapshot captured the page"
+    },
+    {
+      "url": "file:///home/hatch/workspace/founder-eval-artifacts/03-wait-for-content/fixtures/js-heavy.html",
+      "early_chars": 57,
+      "late_chars": 396,
+      "growth_ratio": 6.95,
+      "vocab_overlap": 0.1,
+      "partial_page": true,
+      "verdict": "PARTIAL: naive scrape misses late-loaded content"
+    }
+  ]
+}

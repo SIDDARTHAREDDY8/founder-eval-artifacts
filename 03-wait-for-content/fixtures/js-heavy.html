@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>JS-heavy fixture page</title></head>
+<body>
+<h1>Product catalog</h1>
+<div id="app"><p class="spinner">Loading products...</p></div>
+<script>
+// Simulates a JS-heavy page: real content arrives after the initial HTML.
+setTimeout(() => {
+  document.getElementById('app').innerHTML = `
+    <ul>
+      <li>Widget A: a small blue widget for home use. Price $19.</li>
+      <li>Widget B: a large red widget for industrial use. Price $249.</li>
+      <li>Widget C: a medium green widget for office use. Price $89.</li>
+      <li>Widget D: a tiny yellow widget for travel use. Price $9.</li>
+      <li>Widget E: an extra-large black widget for server rooms. Price $499.</li>
+    </ul>
+    <p>Total items: 5. All prices in USD. Free shipping over $50.</p>`;
+}, 1200);
+</script>
+</body>
+</html>
